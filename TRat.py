@@ -14,8 +14,8 @@ except ImportError:
         os.system("python3 -m pip install pillow -q -q -q")
         from PIL import ImageGrab
 
-TOKEN = '6901554428:AAF5CeTINiCMF1x94hEjrY3KROg6GM2Ozsc'  # Use your Telegram bot token
-CHAT_ID = '196807778'  # Use your chat ID
+TOKEN = '<TOKEN>'  # Use your Telegram bot token
+CHAT_ID = '<CHAT ID>'  # Use your chat ID
 processed_message_ids = []
 
 def get_updates(offset=None):
