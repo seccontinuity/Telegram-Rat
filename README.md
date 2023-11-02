@@ -1,6 +1,5 @@
 # Telegram-Rat
 
-# TelegramRAT
     Cross Platform Telegram based RAT that communicates via telegram to evade network and EDR restrictions
     
 # Installation:
