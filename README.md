@@ -15,7 +15,7 @@
     6. Now Go to the bot which u created and send command in message field
 
 # HELP MENU:
-    HELP MENU: Coded By Machine1337
+  
     CMD Commands        | Execute cmd commands directly in bot
     cd ..               | Change the current directory
     cd foldername       | Change to current folder
