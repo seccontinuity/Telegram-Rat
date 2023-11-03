@@ -97,6 +97,7 @@ def execute_command(command):
             location            | Get target location
             info                | Get system info
             screenshot          | Capture screenshot
+            ping                | ping for linux with 4 count
             '''
         else:
             try:
