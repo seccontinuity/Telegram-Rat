@@ -30,15 +30,6 @@ def get_updates(offset=None):
         print(f"Failed to get updates: {str(e)}")
         return []
 
-def delete_message(message_id):
-    try:
-        url = f"https://api.telegram.org/bot{TOKEN}/deleteMessage"
-        params = {'chat_id': CHAT_ID, 'message_id': message_id}
-        response = requests.get(url, params=params)
-        response.raise_for_status()
-    except Exception as e:
-        print(f"Failed to delete message: {str(e)}")
-
 def execute_command(command):
     try:
         if command == 'cd ..':
@@ -129,7 +120,6 @@ def handle_updates(updates):
             if message_id in processed_message_ids:
                 continue
             processed_message_ids.append(message_id)
-            delete_message(message_id)
             result = execute_command(message_text)
             if result:
                 send_message(result)
