@@ -1,9 +1,9 @@
 import telebot
 import subprocess
 
-bot = telebot.TeleBot('6885521516:AAEDSvXg61xVt8X5ZwqkPGRDxHExQu2BPjY')
+bot = telebot.TeleBot('<TOKEN>')
 
-AUTHORIZED_CHAT_IDS = ['196807778', '0987654321']  # Replace with your authorized chat IDs
+AUTHORIZED_CHAT_IDS = ['<CHAT ID 1>', '<CHAT ID 2>']  # Replace with your authorized chat IDs
 
 
 @bot.message_handler(func=lambda message: True)
