@@ -11,8 +11,10 @@
     2. Create Bot and get the API_TOKEN
     3. Now search for https://t.me/chatIDrobot and get the chat_id
     4. Now Go to TRat.py and go to line 16 and 17 and place API_TOKEN and chat_id there
-    5. Now run python client.py For Windows and python3 TRat.py For Linux
+    5. Now run python TRat.py For Windows and python3 TRat_Lin.py For Linux
     6. Now Go to the bot which u created and send command in message field
+
+    Note: If want to use Telegram Rat Bot with Authorize Chat ID only use Trat_Auth.py
 
 # HELP MENU:
   
